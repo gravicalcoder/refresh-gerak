@@ -5,7 +5,7 @@ import {  useMemo, useEffect, useState,useRef, Suspense } from 'react'
 import { useFrame } from '@react-three/fiber'
 import * as THREE from 'three'
 import Player from './Player.js'
-import PlayerDua from './Player-2.js'
+//import PlayerDua from './Player-2.js'
 import House from './glass-house.js'
 import PlayerTiga from './ladies.js'
 import ModelViewer from './drive.js'
@@ -396,7 +396,7 @@ export default function Experience()
                     wireframe color="red" 
                     /></mesh> }
                 > <Player /> </Suspense>
-                 <PlayerDua />  
+{/* <PlayerDua />  */}
                  {/* <Mobil />  */}
                  <House /> 
 
